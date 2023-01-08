@@ -1,5 +1,5 @@
 # py_proj_template
-My Python 🐍 projects template
+My Python 🐍 projects template. MKDocs is used for documentation.
 
 ## Acknowledgements
 I want to thank plants 🎋 for providing me oxygen each day.
