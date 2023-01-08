@@ -1,0 +1,26 @@
+site_name: py_uml_gen_gui
+site_url: https://chaitu-ycr.github.io/py_uml_gen_gui/
+site_description: Python UML diagrams generator GUI
+site_author: chaitu-ycr
+
+repo_name: chaitu-ycr/py_uml_gen_gui
+repo_url: https://github.com/chaitu-ycr/py_uml_gen_gui
+edit_uri: blob/main/docs/
+
+
+nav:
+  - Documentation: index.md
+
+theme:
+  name: material
+  features:
+    - toc.integrate
+
+plugins:
+  - mkdocstrings
+  - search
+
+markdown_extensions:
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
