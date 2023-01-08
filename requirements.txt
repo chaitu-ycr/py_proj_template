@@ -1,6 +1,4 @@
 pylint
-graphviz
-PySimpleGUI
 pytest
 flit
 mkdocs

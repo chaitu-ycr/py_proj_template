@@ -1,2 +1,2 @@
-"""Python 🐍 UML diagrams generator GUI
+"""Enter Python 🐍 package description here
 """
