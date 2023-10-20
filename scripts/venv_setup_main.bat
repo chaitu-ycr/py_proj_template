@@ -12,8 +12,8 @@ title "creating/updating tool environment..."
 if exist %python_venv_path% (
 	echo "using '%python_exe%' python."
 	echo "upgrade python pip module, install poetry and install repo dependencies..."
-	%python_exe% -m pip install -i %index_url% --trusted-host %trusted_host_url% pip --upgrade
-	%python_exe% -m pip install -i %index_url% --trusted-host %trusted_host_url% poetry --upgrade
+	%python_exe% -m pip install pip --upgrade
+	%python_exe% -m pip install poetry --upgrade
 	%python_exe% -m poetry install --only main
 	cd %root_folder%
 	echo "completed installing tool dependencies."
