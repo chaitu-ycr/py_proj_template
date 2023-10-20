@@ -7,6 +7,7 @@ license = "MIT"
 readme = "README.md"
 homepage = "https://github.com/chaitu-ycr/py_proj_template.git"
 repository = "https://github.com/chaitu-ycr/py_proj_template.git"
+documentation = "https://chaitu-ycr.github.io/py_proj_template/"
 keywords = ["python", "package", "template"]
 classifiers = [
     "Programming Language :: Python :: 3.9",
