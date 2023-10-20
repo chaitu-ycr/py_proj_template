@@ -1,15 +1,3 @@
-# py_proj_template
-My Python 🐍 projects template. MKDocs is used for documentation.
+# [my_package](https://github.com/chaitu-ycr/py_proj_template.git)
 
-## Acknowledgements
-I want to thank plants 🎋 for providing me oxygen each day.
-Also, I want to thank the sun 🌄 for providing more than half of their nourishment free of charge.
-
-## Prerequisites
-- [X] Python(>=3.6)
-
-## Installation
-execute below script for creating virtual environment and installing dependencies
-```cmd
-.\scripts\install_dependencies.bat
-```
+Python Package Template repository

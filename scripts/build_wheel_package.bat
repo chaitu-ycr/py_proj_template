@@ -1,6 +1,6 @@
 @echo off
 
-title "deploying document to GitHub Pages using mkdocs"
+title "poetry build python wheel"
 
 set origin_dir=%CD%
 set file_dir=%~dp0
@@ -16,8 +16,8 @@ cd %root_folder%
 call %cmd_venv_activate%
 if %ERRORLEVEL% NEQ 0 (GOTO ERROR)
 
-:START_MKDOCS_SERVER
-mkdocs gh-deploy
+:BUILD_PACKAGE
+poetry build
 if %ERRORLEVEL% NEQ 0 (GOTO ERROR)
 
 :END
@@ -27,7 +27,7 @@ pause
 GOTO :eof
 
 :ERROR
-title "Failed to run mkdocs due to error %ERRORLEVEL%"
+title "Failed to run pytests due to error %ERRORLEVEL%"
 cd %origin_dir%
 pause
 GOTO :eof
