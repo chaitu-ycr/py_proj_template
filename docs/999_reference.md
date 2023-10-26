@@ -1,3 +1,3 @@
 # reference
 
-## ::: py_proj_template.main
+## ::: src.my_module

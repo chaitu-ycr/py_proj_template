@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "py_proj_template"
+name = "my_module"
 version = "0.0.1"
 description = "Enter project description here"
 authors = ["chaitu-ycr <chaitu.ycr@gmail.com>"]
@@ -16,7 +16,7 @@ classifiers = [
     "Topic :: Software Development :: Embedded Systems"
 ]
 packages = [
-    { include = "main.py", from = "py_proj_template" },
+    { include = "my_module.py", from = "src" },
 ]
 
 [tool.poetry.dependencies]
